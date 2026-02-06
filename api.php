@@ -82,6 +82,9 @@ class API {
         CREATE TABLE IF NOT EXISTS feeds (
             id TEXT PRIMARY KEY,
             name TEXT NOT NULL,
+            feed_slug TEXT,
+            feed_type TEXT DEFAULT 'youla',
+            feed_file TEXT,
             yml_url TEXT NOT NULL,
             youla_url TEXT NOT NULL,
             created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
@@ -101,6 +104,26 @@ class API {
         ";
         
         $this->db->exec($sql);
+        $this->ensureFeedSchema();
+    }
+
+    private function ensureFeedSchema() {
+        $columns = [];
+        $result = $this->db->query("PRAGMA table_info(feeds)");
+
+        while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
+            $columns[] = $row['name'];
+        }
+
+        $this->addColumnIfMissing($columns, 'feed_slug', "ALTER TABLE feeds ADD COLUMN feed_slug TEXT");
+        $this->addColumnIfMissing($columns, 'feed_type', "ALTER TABLE feeds ADD COLUMN feed_type TEXT DEFAULT 'youla'");
+        $this->addColumnIfMissing($columns, 'feed_file', "ALTER TABLE feeds ADD COLUMN feed_file TEXT");
+    }
+
+    private function addColumnIfMissing($columns, $columnName, $sql) {
+        if (!in_array($columnName, $columns, true)) {
+            $this->db->exec($sql);
+        }
     }
     
     public function handleRequest() {
@@ -235,10 +258,10 @@ class API {
             
             while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
                 // Добавляем информацию о файле
-                $feedPath = __DIR__ . "/feeds/{$row['id']}.xml";
+                $feedPath = $this->buildFeedFilePath($row);
                 $row['file_exists'] = file_exists($feedPath);
                 $row['file_size'] = $row['file_exists'] ? filesize($feedPath) : 0;
-                $row['file_url'] = $this->getBaseUrl() . "/download.php?id=" . $row['id'];
+                $row['file_url'] = $this->buildFeedUrl($row);
                 
                 $feeds[] = $row;
             }
@@ -284,6 +307,7 @@ class API {
             $ymlUrl = trim($data['yml_url']);
             $feedName = trim($data['name'] ?? 'Мой фид');
             $interval = intval($data['update_interval'] ?? 30);
+            $feedType = $this->sanitizeFeedType($data['feed_type'] ?? 'youla');
             
             // Валидация
             if (!filter_var($ymlUrl, FILTER_VALIDATE_URL)) {
@@ -294,10 +318,15 @@ class API {
                 $this->sendError('Update interval must be between 5 and 1440 minutes', 400);
             }
             
-            error_log("Creating feed: {$feedName}, URL: {$ymlUrl}, Interval: {$interval}");
-            
             // Создаем конвертер
             $converter = new YMLConverter();
+            $engine = new FeedConverterEngine($converter);
+
+            if (!$engine->isSupportedType($feedType)) {
+                $this->sendError('Unsupported feed type', 400);
+            }
+            
+            error_log("Creating feed: {$feedName}, URL: {$ymlUrl}, Interval: {$interval}");
             
             // Загружаем YML фид
             error_log("Fetching YML data from: {$ymlUrl}");
@@ -312,10 +341,13 @@ class API {
             
             // Генерируем уникальный ID
             $feedId = 'feed_' . time() . '_' . substr(md5($ymlUrl . microtime()), 0, 8);
+            $feedSlug = $this->generateUniqueSlug($feedName);
+            $feedFile = $this->buildFeedFileName($feedSlug, $feedType);
+            $feedFileBase = pathinfo($feedFile, PATHINFO_FILENAME);
             
-            // Создаем фид для Юлы
-            error_log("Generating Youla feed with ID: {$feedId}");
-            $feedPath = $converter->generateYoulaFeed($ymlData, $feedId);
+            // Создаем фид
+            error_log("Generating feed with ID: {$feedId}, type: {$feedType}");
+            $feedPath = $engine->generateFeed($ymlData, $feedFileBase, $feedType);
             
             if (!file_exists($feedPath)) {
                 throw new Exception("Failed to create feed file at: {$feedPath}");
@@ -326,22 +358,27 @@ class API {
             error_log("Feed generated with {$itemsCount} items at: {$feedPath}");
             
             // Сохраняем в базу данных
-            $youlaUrl = $this->getBaseUrl() . "/download.php?id=" . $feedId;
+            $feedUrl = $this->getBaseUrl() . "/feeds/" . $feedFile;
             
             $stmt = $this->db->prepare("
                 INSERT INTO feeds (
-                    id, name, yml_url, youla_url, update_interval, 
+                    id, name, feed_slug, feed_type, feed_file,
+                    yml_url, youla_url, update_interval, 
                     items_count, next_update, status
                 ) VALUES (
-                    :id, :name, :yml_url, :youla_url, :interval,
+                    :id, :name, :feed_slug, :feed_type, :feed_file,
+                    :yml_url, :youla_url, :interval,
                     :count, datetime('now', '+' || :interval || ' minutes'), 'active'
                 )
             ");
             
             $stmt->bindValue(':id', $feedId, SQLITE3_TEXT);
             $stmt->bindValue(':name', $feedName, SQLITE3_TEXT);
+            $stmt->bindValue(':feed_slug', $feedSlug, SQLITE3_TEXT);
+            $stmt->bindValue(':feed_type', $feedType, SQLITE3_TEXT);
+            $stmt->bindValue(':feed_file', $feedFile, SQLITE3_TEXT);
             $stmt->bindValue(':yml_url', $ymlUrl, SQLITE3_TEXT);
-            $stmt->bindValue(':youla_url', $youlaUrl, SQLITE3_TEXT);
+            $stmt->bindValue(':youla_url', $feedUrl, SQLITE3_TEXT);
             $stmt->bindValue(':interval', $interval, SQLITE3_INTEGER);
             $stmt->bindValue(':count', $itemsCount, SQLITE3_INTEGER);
             
@@ -357,7 +394,7 @@ class API {
             $this->sendResponse([
                 'success' => true,
                 'feed_id' => $feedId,
-                'feed_url' => $youlaUrl,
+                'feed_url' => $feedUrl,
                 'items_count' => $itemsCount,
                 'file_size' => filesize($feedPath),
                 'next_update' => date('Y-m-d H:i:s', time() + ($interval * 60)),
@@ -369,8 +406,8 @@ class API {
             error_log("Stack trace: " . $e->getTraceAsString());
             
             // Удаляем файл если он был создан
-            if (isset($feedId) && !empty($feedId)) {
-                $feedPath = __DIR__ . "/feeds/{$feedId}.xml";
+            if (isset($feedFile) && !empty($feedFile)) {
+                $feedPath = __DIR__ . "/feeds/{$feedFile}";
                 if (file_exists($feedPath)) {
                     @unlink($feedPath);
                     error_log("Cleaned up feed file: {$feedPath}");
@@ -401,7 +438,7 @@ class API {
             }
             
             // Добавляем дополнительную информацию
-            $feedPath = __DIR__ . "/feeds/{$feedId}.xml";
+            $feedPath = $this->buildFeedFilePath($feed);
             $feed['file_exists'] = file_exists($feedPath);
             
             if ($feed['file_exists']) {
@@ -520,10 +557,17 @@ class API {
         
         try {
             // Удаляем XML файл
-            $feedPath = __DIR__ . "/feeds/{$feedId}.xml";
-            if (file_exists($feedPath)) {
-                if (!unlink($feedPath)) {
-                    error_log("Warning: Could not delete feed file: {$feedPath}");
+            $stmt = $this->db->prepare("SELECT * FROM feeds WHERE id = :id");
+            $stmt->bindValue(':id', $feedId, SQLITE3_TEXT);
+            $result = $stmt->execute();
+            $feed = $result->fetchArray(SQLITE3_ASSOC);
+
+            if ($feed) {
+                $feedPath = $this->buildFeedFilePath($feed);
+                if (file_exists($feedPath)) {
+                    if (!unlink($feedPath)) {
+                        error_log("Warning: Could not delete feed file: {$feedPath}");
+                    }
                 }
             }
             
@@ -583,7 +627,8 @@ class API {
             }
             
             // Генерируем новый фид
-            $feedPath = $converter->generateYoulaFeed($ymlData, $feedId);
+            $feedFileBase = $this->buildFeedFileBase($feed);
+            $feedPath = $engine->generateFeed($ymlData, $feedFileBase, $feedType);
             $itemsCount = $converter->countItems($ymlData);
             
             // Обновляем базу данных
@@ -880,6 +925,78 @@ class API {
             'success' => true,
             'csrf_token' => $_SESSION['csrf_token']
         ]);
+    }
+
+    private function buildFeedUrl($feed) {
+        if (!empty($feed['feed_file'])) {
+            return $this->getBaseUrl() . "/feeds/" . $feed['feed_file'];
+        }
+
+        return $this->getBaseUrl() . "/download.php?id=" . $feed['id'];
+    }
+
+    private function buildFeedFileName($feedSlug, $feedType) {
+        return "{$feedSlug}_{$feedType}.xml";
+    }
+
+    private function buildFeedFileBase($feed) {
+        if (!empty($feed['feed_file'])) {
+            return pathinfo($feed['feed_file'], PATHINFO_FILENAME);
+        }
+
+        return $feed['id'];
+    }
+
+    private function buildFeedFilePath($feed) {
+        if (!empty($feed['feed_file'])) {
+            return __DIR__ . "/feeds/" . $feed['feed_file'];
+        }
+
+        return __DIR__ . "/feeds/{$feed['id']}.xml";
+    }
+
+    private function sanitizeFeedType($feedType) {
+        return strtolower(preg_replace('/[^a-z0-9_]+/', '', $feedType));
+    }
+
+    private function generateUniqueSlug($feedName) {
+        $baseSlug = $this->slugify($feedName);
+        $slug = $baseSlug;
+        $suffix = 1;
+
+        while ($this->feedSlugExists($slug)) {
+            $suffix++;
+            $slug = $baseSlug . '-' . $suffix;
+        }
+
+        return $slug;
+    }
+
+    private function feedSlugExists($slug) {
+        $stmt = $this->db->prepare("SELECT COUNT(*) as total FROM feeds WHERE feed_slug = :slug");
+        $stmt->bindValue(':slug', $slug, SQLITE3_TEXT);
+        $result = $stmt->execute();
+        $row = $result->fetchArray(SQLITE3_ASSOC);
+
+        return ($row['total'] ?? 0) > 0;
+    }
+
+    private function slugify($text) {
+        $text = trim($text);
+        $text = mb_strtolower($text, 'UTF-8');
+        $text = strtr($text, [
+            'а' => 'a', 'б' => 'b', 'в' => 'v', 'г' => 'g', 'д' => 'd',
+            'е' => 'e', 'ё' => 'e', 'ж' => 'zh', 'з' => 'z', 'и' => 'i',
+            'й' => 'y', 'к' => 'k', 'л' => 'l', 'м' => 'm', 'н' => 'n',
+            'о' => 'o', 'п' => 'p', 'р' => 'r', 'с' => 's', 'т' => 't',
+            'у' => 'u', 'ф' => 'f', 'х' => 'h', 'ц' => 'ts', 'ч' => 'ch',
+            'ш' => 'sh', 'щ' => 'sch', 'ь' => '', 'ы' => 'y', 'ъ' => '',
+            'э' => 'e', 'ю' => 'yu', 'я' => 'ya'
+        ]);
+        $text = preg_replace('/[^a-z0-9]+/', '-', $text);
+        $text = trim($text, '-');
+
+        return $text === '' ? 'feed' : $text;
     }
     
     private function logEvent($feedId, $message) {

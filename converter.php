@@ -124,7 +124,7 @@ class YMLConverter {
         return $array;
     }
     
-    public function generateYoulaFeed($ymlData, $feedId) {
+    public function generateYoulaFeed($ymlData, $feedFileBase) {
         error_log("=== GENERATING YOULA FEED ===");
         
         try {
@@ -187,7 +187,7 @@ class YMLConverter {
             error_log("Converted products: {$convertedCount}");
             
             // Сохраняем файл
-            $feedPath = FEEDS_DIR . "/{$feedId}.xml";
+            $feedPath = FEEDS_DIR . "/{$feedFileBase}.xml";
             
             // Проверяем директорию
             if (!is_dir(FEEDS_DIR)) {
@@ -318,5 +318,27 @@ class YMLConverter {
             return is_array($offers) ? count($offers) : 1;
         }
         return 0;
+    }
+}
+
+class FeedConverterEngine {
+    private $converter;
+    private $supportedTypes = ['youla'];
+
+    public function __construct(YMLConverter $converter) {
+        $this->converter = $converter;
+    }
+
+    public function isSupportedType($feedType) {
+        return in_array($feedType, $this->supportedTypes, true);
+    }
+
+    public function generateFeed($ymlData, $feedFileBase, $feedType) {
+        switch ($feedType) {
+            case 'youla':
+                return $this->converter->generateYoulaFeed($ymlData, $feedFileBase);
+            default:
+                throw new Exception("Unsupported feed type: {$feedType}");
+        }
     }
 }
