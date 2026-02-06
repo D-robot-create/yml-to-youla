@@ -1,6 +1,9 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
     
+    # Разрешаем доступ к XML фидам
+    RewriteRule ^feeds/.*\.xml$ - [L]
+
     # Запрещаем доступ к служебным папкам
     RewriteRule ^(feeds|logs|config|ui/partials) - [F,L]
     
