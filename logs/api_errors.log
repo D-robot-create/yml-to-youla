@@ -1,0 +1,860 @@
+[06-Feb-2026 16:59:32 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 16:59:32 Europe/Moscow] Method: GET
+[06-Feb-2026 16:59:32 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 16:59:32 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 16:59:32 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:00:25 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:00:25 Europe/Moscow] Method: GET
+[06-Feb-2026 17:00:25 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:00:25 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:00:25 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:00:25 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:00:25 Europe/Moscow] Method: GET
+[06-Feb-2026 17:00:25 Europe/Moscow] URI: /yml-to-youla/api.php?action=csrf
+[06-Feb-2026 17:00:25 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:00:25 Europe/Moscow] Action: csrf, Method: GET
+[06-Feb-2026 17:00:37 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:00:37 Europe/Moscow] Method: GET
+[06-Feb-2026 17:00:37 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:00:37 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:00:37 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:00:37 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:00:37 Europe/Moscow] Method: GET
+[06-Feb-2026 17:00:37 Europe/Moscow] URI: /yml-to-youla/api.php?action=csrf
+[06-Feb-2026 17:00:37 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:00:37 Europe/Moscow] Action: csrf, Method: GET
+[06-Feb-2026 17:00:39 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:00:39 Europe/Moscow] Method: POST
+[06-Feb-2026 17:00:39 Europe/Moscow] URI: /yml-to-youla/api.php?action=test
+[06-Feb-2026 17:00:39 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:00:39 Europe/Moscow] Action: test, Method: POST
+[06-Feb-2026 17:00:39 Europe/Moscow] Testing URL: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml
+[06-Feb-2026 17:00:39 Europe/Moscow] === FETCHING YML FEED FROM: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml ===
+[06-Feb-2026 17:00:39 Europe/Moscow] Response size: 698653 bytes
+[06-Feb-2026 17:00:46 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:00:46 Europe/Moscow] Method: POST
+[06-Feb-2026 17:00:46 Europe/Moscow] URI: /yml-to-youla/api.php?action=test
+[06-Feb-2026 17:00:46 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:00:46 Europe/Moscow] Action: test, Method: POST
+[06-Feb-2026 17:00:46 Europe/Moscow] Testing URL: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml
+[06-Feb-2026 17:00:46 Europe/Moscow] === FETCHING YML FEED FROM: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml ===
+[06-Feb-2026 17:00:46 Europe/Moscow] Response size: 698653 bytes
+[06-Feb-2026 17:01:00 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:01:00 Europe/Moscow] Method: GET
+[06-Feb-2026 17:01:00 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:01:00 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:01:00 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:01:00 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:01:00 Europe/Moscow] Method: GET
+[06-Feb-2026 17:01:00 Europe/Moscow] URI: /yml-to-youla/api.php?action=csrf
+[06-Feb-2026 17:01:00 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:01:00 Europe/Moscow] Action: csrf, Method: GET
+[06-Feb-2026 17:01:01 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:01:01 Europe/Moscow] Method: GET
+[06-Feb-2026 17:01:01 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:01:01 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:01:01 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:01:01 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:01:01 Europe/Moscow] Method: GET
+[06-Feb-2026 17:01:01 Europe/Moscow] URI: /yml-to-youla/api.php?action=csrf
+[06-Feb-2026 17:01:01 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:01:01 Europe/Moscow] Action: csrf, Method: GET
+[06-Feb-2026 17:01:01 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:01:01 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:01:01 Europe/Moscow] Method: GET
+[06-Feb-2026 17:01:01 Europe/Moscow] URI: /yml-to-youla/api.php?action=csrf
+[06-Feb-2026 17:01:01 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:01:01 Europe/Moscow] Method: GET
+[06-Feb-2026 17:01:01 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:01:01 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:01:01 Europe/Moscow] Action: csrf, Method: GET
+[06-Feb-2026 17:01:01 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:01:02 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:01:02 Europe/Moscow] Method: GET
+[06-Feb-2026 17:01:02 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:01:02 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:01:02 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:01:03 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:01:03 Europe/Moscow] Method: GET
+[06-Feb-2026 17:01:03 Europe/Moscow] URI: /yml-to-youla/api.php?action=csrf
+[06-Feb-2026 17:01:03 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:01:03 Europe/Moscow] Action: csrf, Method: GET
+[06-Feb-2026 17:01:03 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:01:03 Europe/Moscow] Method: GET
+[06-Feb-2026 17:01:03 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:01:03 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:01:03 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:01:03 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:01:03 Europe/Moscow] Method: GET
+[06-Feb-2026 17:01:03 Europe/Moscow] URI: /yml-to-youla/api.php?action=csrf
+[06-Feb-2026 17:01:03 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:01:03 Europe/Moscow] Action: csrf, Method: GET
+[06-Feb-2026 17:01:11 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:01:11 Europe/Moscow] Method: GET
+[06-Feb-2026 17:01:11 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:01:11 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:01:11 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:01:11 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:01:11 Europe/Moscow] Method: GET
+[06-Feb-2026 17:01:11 Europe/Moscow] URI: /yml-to-youla/api.php?action=csrf
+[06-Feb-2026 17:01:11 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:01:11 Europe/Moscow] Action: csrf, Method: GET
+[06-Feb-2026 17:01:13 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:01:13 Europe/Moscow] Method: GET
+[06-Feb-2026 17:01:13 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:01:13 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:01:13 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:01:13 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:01:13 Europe/Moscow] Method: GET
+[06-Feb-2026 17:01:13 Europe/Moscow] URI: /yml-to-youla/api.php?action=csrf
+[06-Feb-2026 17:01:13 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:01:13 Europe/Moscow] Action: csrf, Method: GET
+[06-Feb-2026 17:01:14 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:01:14 Europe/Moscow] Method: GET
+[06-Feb-2026 17:01:14 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:01:14 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:01:14 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:01:14 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:01:14 Europe/Moscow] Method: GET
+[06-Feb-2026 17:01:14 Europe/Moscow] URI: /yml-to-youla/api.php?action=csrf
+[06-Feb-2026 17:01:14 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:01:14 Europe/Moscow] Action: csrf, Method: GET
+[06-Feb-2026 17:01:17 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:01:17 Europe/Moscow] Method: POST
+[06-Feb-2026 17:01:17 Europe/Moscow] URI: /yml-to-youla/api.php?action=test
+[06-Feb-2026 17:01:17 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:01:17 Europe/Moscow] Action: test, Method: POST
+[06-Feb-2026 17:01:17 Europe/Moscow] Testing URL: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml
+[06-Feb-2026 17:01:17 Europe/Moscow] === FETCHING YML FEED FROM: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml ===
+[06-Feb-2026 17:01:17 Europe/Moscow] Response size: 698653 bytes
+[06-Feb-2026 17:01:20 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:01:20 Europe/Moscow] Method: POST
+[06-Feb-2026 17:01:20 Europe/Moscow] URI: /yml-to-youla/api.php?action=test
+[06-Feb-2026 17:01:20 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:01:20 Europe/Moscow] Action: test, Method: POST
+[06-Feb-2026 17:01:20 Europe/Moscow] Testing URL: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml
+[06-Feb-2026 17:01:20 Europe/Moscow] === FETCHING YML FEED FROM: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml ===
+[06-Feb-2026 17:01:20 Europe/Moscow] Response size: 698653 bytes
+[06-Feb-2026 17:01:40 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:01:40 Europe/Moscow] Method: GET
+[06-Feb-2026 17:01:40 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:01:40 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:01:40 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:01:40 Europe/Moscow] === API REQUEST ===
+[06-Feb-2026 17:01:40 Europe/Moscow] Method: GET
+[06-Feb-2026 17:01:40 Europe/Moscow] URI: /yml-to-youla/api.php?action=csrf
+[06-Feb-2026 17:01:40 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:01:40 Europe/Moscow] Action: csrf, Method: GET
+[06-Feb-2026 17:18:22 Europe/Moscow] === API REQUEST [2026-02-06 17:18:22] ===
+[06-Feb-2026 17:18:22 Europe/Moscow] Method: GET
+[06-Feb-2026 17:18:22 Europe/Moscow] URI: /yml-to-youla/api.php?action=healt
+[06-Feb-2026 17:18:22 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:18:22 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:18:22 Europe/Moscow] Action: healt, Method: GET
+[06-Feb-2026 17:18:35 Europe/Moscow] === API REQUEST [2026-02-06 17:18:35] ===
+[06-Feb-2026 17:18:35 Europe/Moscow] Method: GET
+[06-Feb-2026 17:18:35 Europe/Moscow] URI: /yml-to-youla/api.php?action=csrf
+[06-Feb-2026 17:18:35 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:18:35 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:18:35 Europe/Moscow] Action: csrf, Method: GET
+[06-Feb-2026 17:18:35 Europe/Moscow] Getting CSRF token
+[06-Feb-2026 17:18:46 Europe/Moscow] === API REQUEST [2026-02-06 17:18:46] ===
+[06-Feb-2026 17:18:46 Europe/Moscow] Method: GET
+[06-Feb-2026 17:18:46 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:18:46 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:18:46 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:18:46 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:18:46 Europe/Moscow] Health check
+[06-Feb-2026 17:18:57 Europe/Moscow] === API REQUEST [2026-02-06 17:18:57] ===
+[06-Feb-2026 17:18:57 Europe/Moscow] Method: GET
+[06-Feb-2026 17:18:57 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:18:57 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:18:57 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:18:57 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:18:57 Europe/Moscow] Health check
+[06-Feb-2026 17:18:59 Europe/Moscow] === API REQUEST [2026-02-06 17:18:59] ===
+[06-Feb-2026 17:18:59 Europe/Moscow] Method: POST
+[06-Feb-2026 17:18:59 Europe/Moscow] URI: /yml-to-youla/api.php?action=test
+[06-Feb-2026 17:18:59 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:18:59 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:18:59 Europe/Moscow] Action: test, Method: POST
+[06-Feb-2026 17:18:59 Europe/Moscow] Testing URL
+[06-Feb-2026 17:18:59 Europe/Moscow] Testing URL: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml
+[06-Feb-2026 17:18:59 Europe/Moscow] === FETCHING YML FEED FROM: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml ===
+[06-Feb-2026 17:18:59 Europe/Moscow] Response size: 698653 bytes
+[06-Feb-2026 17:19:06 Europe/Moscow] === API REQUEST [2026-02-06 17:19:06] ===
+[06-Feb-2026 17:19:06 Europe/Moscow] Method: POST
+[06-Feb-2026 17:19:06 Europe/Moscow] URI: /yml-to-youla/api.php?action=test
+[06-Feb-2026 17:19:06 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:19:06 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:19:06 Europe/Moscow] Action: test, Method: POST
+[06-Feb-2026 17:19:06 Europe/Moscow] Testing URL
+[06-Feb-2026 17:19:06 Europe/Moscow] Testing URL: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml
+[06-Feb-2026 17:19:06 Europe/Moscow] === FETCHING YML FEED FROM: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml ===
+[06-Feb-2026 17:19:06 Europe/Moscow] Response size: 698653 bytes
+[06-Feb-2026 17:19:13 Europe/Moscow] === API REQUEST [2026-02-06 17:19:13] ===
+[06-Feb-2026 17:19:13 Europe/Moscow] Method: GET
+[06-Feb-2026 17:19:13 Europe/Moscow] URI: /yml-to-youla/api.php?action=healt
+[06-Feb-2026 17:19:13 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:19:13 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:19:13 Europe/Moscow] Action: healt, Method: GET
+[06-Feb-2026 17:19:14 Europe/Moscow] === API REQUEST [2026-02-06 17:19:14] ===
+[06-Feb-2026 17:19:14 Europe/Moscow] Method: GET
+[06-Feb-2026 17:19:14 Europe/Moscow] URI: /yml-to-youla/api.php?action=csrf
+[06-Feb-2026 17:19:14 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:19:14 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:19:14 Europe/Moscow] Action: csrf, Method: GET
+[06-Feb-2026 17:19:14 Europe/Moscow] Getting CSRF token
+[06-Feb-2026 17:19:15 Europe/Moscow] === API REQUEST [2026-02-06 17:19:15] ===
+[06-Feb-2026 17:19:15 Europe/Moscow] Method: GET
+[06-Feb-2026 17:19:15 Europe/Moscow] URI: /yml-to-youla/api.php?action=csrf
+[06-Feb-2026 17:19:15 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:19:15 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:19:15 Europe/Moscow] Action: csrf, Method: GET
+[06-Feb-2026 17:19:15 Europe/Moscow] Getting CSRF token
+[06-Feb-2026 17:19:57 Europe/Moscow] === API REQUEST [2026-02-06 17:19:57] ===
+[06-Feb-2026 17:19:57 Europe/Moscow] Method: GET
+[06-Feb-2026 17:19:57 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:19:57 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:19:57 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:19:57 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:19:57 Europe/Moscow] Health check
+[06-Feb-2026 17:20:32 Europe/Moscow] === API REQUEST [2026-02-06 17:20:32] ===
+[06-Feb-2026 17:20:32 Europe/Moscow] Method: POST
+[06-Feb-2026 17:20:32 Europe/Moscow] URI: /yml-to-youla/api.php?action=test
+[06-Feb-2026 17:20:32 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:20:32 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:20:32 Europe/Moscow] Action: test, Method: POST
+[06-Feb-2026 17:20:32 Europe/Moscow] Testing URL
+[06-Feb-2026 17:20:32 Europe/Moscow] Testing URL: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml
+[06-Feb-2026 17:20:32 Europe/Moscow] === FETCHING YML FEED FROM: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml ===
+[06-Feb-2026 17:20:32 Europe/Moscow] Response size: 698653 bytes
+[06-Feb-2026 17:20:33 Europe/Moscow] === API REQUEST [2026-02-06 17:20:33] ===
+[06-Feb-2026 17:20:33 Europe/Moscow] Method: POST
+[06-Feb-2026 17:20:33 Europe/Moscow] URI: /yml-to-youla/api.php?action=test
+[06-Feb-2026 17:20:33 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:20:33 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:20:33 Europe/Moscow] Action: test, Method: POST
+[06-Feb-2026 17:20:33 Europe/Moscow] Testing URL
+[06-Feb-2026 17:20:33 Europe/Moscow] Testing URL: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml
+[06-Feb-2026 17:20:33 Europe/Moscow] === FETCHING YML FEED FROM: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml ===
+[06-Feb-2026 17:20:33 Europe/Moscow] Response size: 698653 bytes
+[06-Feb-2026 17:20:36 Europe/Moscow] === API REQUEST [2026-02-06 17:20:36] ===
+[06-Feb-2026 17:20:36 Europe/Moscow] Method: GET
+[06-Feb-2026 17:20:36 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:20:36 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:20:36 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:20:36 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:20:36 Europe/Moscow] Health check
+[06-Feb-2026 17:20:38 Europe/Moscow] === API REQUEST [2026-02-06 17:20:38] ===
+[06-Feb-2026 17:20:38 Europe/Moscow] Method: POST
+[06-Feb-2026 17:20:38 Europe/Moscow] URI: /yml-to-youla/api.php?action=test
+[06-Feb-2026 17:20:38 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:20:38 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:20:38 Europe/Moscow] Action: test, Method: POST
+[06-Feb-2026 17:20:38 Europe/Moscow] Testing URL
+[06-Feb-2026 17:20:38 Europe/Moscow] Testing URL: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml
+[06-Feb-2026 17:20:38 Europe/Moscow] === FETCHING YML FEED FROM: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml ===
+[06-Feb-2026 17:20:38 Europe/Moscow] Response size: 698653 bytes
+[06-Feb-2026 17:20:45 Europe/Moscow] === API REQUEST [2026-02-06 17:20:45] ===
+[06-Feb-2026 17:20:45 Europe/Moscow] Method: POST
+[06-Feb-2026 17:20:45 Europe/Moscow] URI: /yml-to-youla/api.php?action=test
+[06-Feb-2026 17:20:45 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:20:45 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:20:45 Europe/Moscow] Action: test, Method: POST
+[06-Feb-2026 17:20:45 Europe/Moscow] Testing URL
+[06-Feb-2026 17:20:45 Europe/Moscow] Testing URL: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml
+[06-Feb-2026 17:20:45 Europe/Moscow] === FETCHING YML FEED FROM: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml ===
+[06-Feb-2026 17:20:45 Europe/Moscow] Response size: 698653 bytes
+[06-Feb-2026 17:21:36 Europe/Moscow] === API REQUEST [2026-02-06 17:21:36] ===
+[06-Feb-2026 17:21:36 Europe/Moscow] Method: GET
+[06-Feb-2026 17:21:36 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:21:36 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:21:36 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:21:36 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:21:36 Europe/Moscow] Health check
+[06-Feb-2026 17:21:49 Europe/Moscow] === API REQUEST [2026-02-06 17:21:49] ===
+[06-Feb-2026 17:21:49 Europe/Moscow] Method: POST
+[06-Feb-2026 17:21:49 Europe/Moscow] URI: /yml-to-youla/api.php?action=test
+[06-Feb-2026 17:21:49 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:21:49 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:21:49 Europe/Moscow] Action: test, Method: POST
+[06-Feb-2026 17:21:49 Europe/Moscow] Testing URL
+[06-Feb-2026 17:21:49 Europe/Moscow] Testing URL: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml
+[06-Feb-2026 17:21:49 Europe/Moscow] === FETCHING YML FEED FROM: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml ===
+[06-Feb-2026 17:21:50 Europe/Moscow] Response size: 698653 bytes
+[06-Feb-2026 17:22:37 Europe/Moscow] === API REQUEST [2026-02-06 17:22:37] ===
+[06-Feb-2026 17:22:37 Europe/Moscow] Method: GET
+[06-Feb-2026 17:22:37 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:22:37 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:22:37 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:22:37 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:22:37 Europe/Moscow] Health check
+[06-Feb-2026 17:23:37 Europe/Moscow] === API REQUEST [2026-02-06 17:23:37] ===
+[06-Feb-2026 17:23:37 Europe/Moscow] Method: GET
+[06-Feb-2026 17:23:37 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:23:37 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:23:37 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:23:37 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:23:37 Europe/Moscow] Health check
+[06-Feb-2026 17:24:37 Europe/Moscow] === API REQUEST [2026-02-06 17:24:37] ===
+[06-Feb-2026 17:24:37 Europe/Moscow] Method: GET
+[06-Feb-2026 17:24:37 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:24:37 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:24:37 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:24:37 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:24:37 Europe/Moscow] Health check
+[06-Feb-2026 17:25:36 Europe/Moscow] === API REQUEST [2026-02-06 17:25:36] ===
+[06-Feb-2026 17:25:36 Europe/Moscow] Method: GET
+[06-Feb-2026 17:25:36 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:25:36 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:25:36 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:25:36 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:25:36 Europe/Moscow] Health check
+[06-Feb-2026 17:26:36 Europe/Moscow] === API REQUEST [2026-02-06 17:26:36] ===
+[06-Feb-2026 17:26:36 Europe/Moscow] Method: GET
+[06-Feb-2026 17:26:36 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:26:36 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:26:36 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:26:36 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:26:36 Europe/Moscow] Health check
+[06-Feb-2026 17:27:43 Europe/Moscow] === API REQUEST [2026-02-06 17:27:43] ===
+[06-Feb-2026 17:27:43 Europe/Moscow] Method: GET
+[06-Feb-2026 17:27:43 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:27:43 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:27:43 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:27:43 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:27:43 Europe/Moscow] Health check
+[06-Feb-2026 17:28:36 Europe/Moscow] === API REQUEST [2026-02-06 17:28:36] ===
+[06-Feb-2026 17:28:36 Europe/Moscow] Method: GET
+[06-Feb-2026 17:28:36 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:28:36 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:28:36 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:28:36 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:28:36 Europe/Moscow] Health check
+[06-Feb-2026 17:28:56 Europe/Moscow] === API REQUEST [2026-02-06 17:28:56] ===
+[06-Feb-2026 17:28:56 Europe/Moscow] Method: POST
+[06-Feb-2026 17:28:56 Europe/Moscow] URI: /yml-to-youla/api.php?action=feeds
+[06-Feb-2026 17:28:56 Europe/Moscow] IP: 5.101.153.11
+[06-Feb-2026 17:28:56 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:28:56 Europe/Moscow] Action: feeds, Method: POST
+[06-Feb-2026 17:28:56 Europe/Moscow] Starting feed creation process
+[06-Feb-2026 17:28:56 Europe/Moscow] Raw input: {"yml_url":"https:\/\/iskrussian.ru\/bitrix\/catalog_export\/wholesale_kabel_krd.xml","name":"\u0422\u0435\u0441\u0442 \u043f\u0440\u044f\u043c\u043e\u0439 API","update_interval":30}
+[06-Feb-2026 17:28:56 Europe/Moscow] Creating feed: Тест прямой API, URL: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml, Interval: 30
+[06-Feb-2026 17:28:56 Europe/Moscow] Fetching YML data from: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml
+[06-Feb-2026 17:28:56 Europe/Moscow] === FETCHING YML FEED FROM: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml ===
+[06-Feb-2026 17:28:56 Europe/Moscow] Response size: 698653 bytes
+[06-Feb-2026 17:28:56 Europe/Moscow] YML data fetched successfully
+[06-Feb-2026 17:28:56 Europe/Moscow] Generating Youla feed with ID: feed_1770388136_b8ac2654
+[06-Feb-2026 17:28:56 Europe/Moscow] === GENERATING YOULA FEED ===
+[06-Feb-2026 17:28:56 Europe/Moscow] Shop: Инженерные системы климата
+[06-Feb-2026 17:28:56 Europe/Moscow] Found offers: 149
+[06-Feb-2026 17:28:56 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class "CategoryMapper" not found in /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/converter.php:240
+Stack trace:
+#0 /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/converter.php(180): YMLConverter->convertProduct(Array, 'https://iskruss...')
+#1 /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/api.php(318): YMLConverter->generateYoulaFeed(Array, 'feed_1770388136...')
+#2 /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/api.php(118): API->createFeed()
+#3 /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/api.php(936): API->handleRequest()
+#4 {main}
+  thrown in /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/converter.php on line 240
+[06-Feb-2026 17:28:59 Europe/Moscow] === API REQUEST [2026-02-06 17:28:59] ===
+[06-Feb-2026 17:28:59 Europe/Moscow] Method: POST
+[06-Feb-2026 17:28:59 Europe/Moscow] URI: /yml-to-youla/api.php?action=feeds
+[06-Feb-2026 17:28:59 Europe/Moscow] IP: 5.101.153.11
+[06-Feb-2026 17:28:59 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:28:59 Europe/Moscow] Action: feeds, Method: POST
+[06-Feb-2026 17:28:59 Europe/Moscow] Starting feed creation process
+[06-Feb-2026 17:28:59 Europe/Moscow] Raw input: {"yml_url":"https:\/\/iskrussian.ru\/bitrix\/catalog_export\/wholesale_kabel_krd.xml","name":"\u0422\u0435\u0441\u0442 \u043f\u0440\u044f\u043c\u043e\u0439 API","update_interval":30}
+[06-Feb-2026 17:28:59 Europe/Moscow] Creating feed: Тест прямой API, URL: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml, Interval: 30
+[06-Feb-2026 17:28:59 Europe/Moscow] Fetching YML data from: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml
+[06-Feb-2026 17:28:59 Europe/Moscow] === FETCHING YML FEED FROM: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml ===
+[06-Feb-2026 17:28:59 Europe/Moscow] Response size: 698653 bytes
+[06-Feb-2026 17:28:59 Europe/Moscow] YML data fetched successfully
+[06-Feb-2026 17:28:59 Europe/Moscow] Generating Youla feed with ID: feed_1770388139_a2038157
+[06-Feb-2026 17:28:59 Europe/Moscow] === GENERATING YOULA FEED ===
+[06-Feb-2026 17:28:59 Europe/Moscow] Shop: Инженерные системы климата
+[06-Feb-2026 17:28:59 Europe/Moscow] Found offers: 149
+[06-Feb-2026 17:28:59 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class "CategoryMapper" not found in /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/converter.php:240
+Stack trace:
+#0 /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/converter.php(180): YMLConverter->convertProduct(Array, 'https://iskruss...')
+#1 /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/api.php(318): YMLConverter->generateYoulaFeed(Array, 'feed_1770388139...')
+#2 /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/api.php(118): API->createFeed()
+#3 /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/api.php(936): API->handleRequest()
+#4 {main}
+  thrown in /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/converter.php on line 240
+[06-Feb-2026 17:32:00 Europe/Moscow] === API REQUEST [2026-02-06 17:32:00] ===
+[06-Feb-2026 17:32:00 Europe/Moscow] Method: GET
+[06-Feb-2026 17:32:00 Europe/Moscow] URI: /yml-to-youla/api.php?action=csrf
+[06-Feb-2026 17:32:00 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:32:00 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:32:00 Europe/Moscow] Action: csrf, Method: GET
+[06-Feb-2026 17:32:00 Europe/Moscow] Getting CSRF token
+[06-Feb-2026 17:32:01 Europe/Moscow] === API REQUEST [2026-02-06 17:32:01] ===
+[06-Feb-2026 17:32:01 Europe/Moscow] Method: GET
+[06-Feb-2026 17:32:01 Europe/Moscow] URI: /yml-to-youla/api.php?action=healt
+[06-Feb-2026 17:32:01 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:32:01 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:32:01 Europe/Moscow] Action: healt, Method: GET
+[06-Feb-2026 17:33:42 Europe/Moscow] === API REQUEST [2026-02-06 17:33:42] ===
+[06-Feb-2026 17:33:42 Europe/Moscow] Method: GET
+[06-Feb-2026 17:33:42 Europe/Moscow] URI: /yml-to-youla/api.php?action=csrf
+[06-Feb-2026 17:33:42 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:33:42 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:33:42 Europe/Moscow] Action: csrf, Method: GET
+[06-Feb-2026 17:33:42 Europe/Moscow] Getting CSRF token
+[06-Feb-2026 17:33:43 Europe/Moscow] === API REQUEST [2026-02-06 17:33:43] ===
+[06-Feb-2026 17:33:43 Europe/Moscow] Method: GET
+[06-Feb-2026 17:33:43 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:33:43 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:33:43 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:33:43 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:33:43 Europe/Moscow] Health check
+[06-Feb-2026 17:33:53 Europe/Moscow] === API REQUEST [2026-02-06 17:33:53] ===
+[06-Feb-2026 17:33:53 Europe/Moscow] Method: POST
+[06-Feb-2026 17:33:53 Europe/Moscow] URI: /yml-to-youla/api.php?action=feeds
+[06-Feb-2026 17:33:53 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:33:53 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:33:53 Europe/Moscow] Action: feeds, Method: POST
+[06-Feb-2026 17:33:53 Europe/Moscow] Starting feed creation process
+[06-Feb-2026 17:33:53 Europe/Moscow] Raw input: {"yml_url":"https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml","name":"Мой фид","update_interval":"30"}
+[06-Feb-2026 17:33:53 Europe/Moscow] Creating feed: Мой фид, URL: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml, Interval: 30
+[06-Feb-2026 17:33:53 Europe/Moscow] Fetching YML data from: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml
+[06-Feb-2026 17:33:53 Europe/Moscow] === FETCHING YML FEED FROM: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml ===
+[06-Feb-2026 17:33:53 Europe/Moscow] Response size: 698653 bytes
+[06-Feb-2026 17:33:53 Europe/Moscow] YML data fetched successfully
+[06-Feb-2026 17:33:53 Europe/Moscow] Generating Youla feed with ID: feed_1770388433_17b13c3d
+[06-Feb-2026 17:33:53 Europe/Moscow] === GENERATING YOULA FEED ===
+[06-Feb-2026 17:33:53 Europe/Moscow] Shop: Инженерные системы климата
+[06-Feb-2026 17:33:53 Europe/Moscow] Found offers: 149
+[06-Feb-2026 17:33:53 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class "CategoryMapper" not found in /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/converter.php:240
+Stack trace:
+#0 /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/converter.php(180): YMLConverter->convertProduct(Array, 'https://iskruss...')
+#1 /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/api.php(318): YMLConverter->generateYoulaFeed(Array, 'feed_1770388433...')
+#2 /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/api.php(118): API->createFeed()
+#3 /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/api.php(936): API->handleRequest()
+#4 {main}
+  thrown in /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/converter.php on line 240
+[06-Feb-2026 17:44:28 Europe/Moscow] === API REQUEST [2026-02-06 17:44:28] ===
+[06-Feb-2026 17:44:28 Europe/Moscow] Method: POST
+[06-Feb-2026 17:44:28 Europe/Moscow] URI: /yml-to-youla/api.php?action=feeds
+[06-Feb-2026 17:44:28 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:44:28 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:44:28 Europe/Moscow] Action: feeds, Method: POST
+[06-Feb-2026 17:44:28 Europe/Moscow] Starting feed creation process
+[06-Feb-2026 17:44:28 Europe/Moscow] Raw input: {"yml_url":"https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml","name":"Мой фид","update_interval":"30"}
+[06-Feb-2026 17:44:28 Europe/Moscow] Creating feed: Мой фид, URL: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml, Interval: 30
+[06-Feb-2026 17:44:28 Europe/Moscow] Fetching YML data from: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml
+[06-Feb-2026 17:44:28 Europe/Moscow] === FETCHING YML FEED FROM: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml ===
+[06-Feb-2026 17:44:28 Europe/Moscow] Response size: 698653 bytes
+[06-Feb-2026 17:44:28 Europe/Moscow] YML data fetched successfully
+[06-Feb-2026 17:44:28 Europe/Moscow] Generating Youla feed with ID: feed_1770389068_ccb8a659
+[06-Feb-2026 17:44:28 Europe/Moscow] === GENERATING YOULA FEED ===
+[06-Feb-2026 17:44:28 Europe/Moscow] Shop: Инженерные системы климата
+[06-Feb-2026 17:44:28 Europe/Moscow] Found offers: 149
+[06-Feb-2026 17:44:28 Europe/Moscow] Converted products: 149
+[06-Feb-2026 17:44:28 Europe/Moscow] Feed saved to: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feed_1770389068_ccb8a659.xml
+[06-Feb-2026 17:44:28 Europe/Moscow] File size: 525184 bytes
+[06-Feb-2026 17:44:28 Europe/Moscow] Feed generated with 0 items at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feed_1770389068_ccb8a659.xml
+[06-Feb-2026 17:44:28 Europe/Moscow] Feed created successfully: feed_1770389068_ccb8a659
+[06-Feb-2026 17:44:50 Europe/Moscow] === API REQUEST [2026-02-06 17:44:50] ===
+[06-Feb-2026 17:44:50 Europe/Moscow] Method: GET
+[06-Feb-2026 17:44:50 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:44:50 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:44:50 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:44:50 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:44:50 Europe/Moscow] Health check
+[06-Feb-2026 17:44:52 Europe/Moscow] === API REQUEST [2026-02-06 17:44:52] ===
+[06-Feb-2026 17:44:52 Europe/Moscow] Method: GET
+[06-Feb-2026 17:44:52 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:44:52 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:44:52 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:44:52 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:44:52 Europe/Moscow] Health check
+[06-Feb-2026 17:44:59 Europe/Moscow] === API REQUEST [2026-02-06 17:44:59] ===
+[06-Feb-2026 17:44:59 Europe/Moscow] Method: POST
+[06-Feb-2026 17:44:59 Europe/Moscow] URI: /yml-to-youla/api.php?action=test
+[06-Feb-2026 17:44:59 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:44:59 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:44:59 Europe/Moscow] Action: test, Method: POST
+[06-Feb-2026 17:44:59 Europe/Moscow] Testing URL
+[06-Feb-2026 17:44:59 Europe/Moscow] Testing URL: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml
+[06-Feb-2026 17:44:59 Europe/Moscow] === FETCHING YML FEED FROM: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml ===
+[06-Feb-2026 17:44:59 Europe/Moscow] Response size: 698653 bytes
+[06-Feb-2026 17:45:29 Europe/Moscow] === API REQUEST [2026-02-06 17:45:29] ===
+[06-Feb-2026 17:45:29 Europe/Moscow] Method: GET
+[06-Feb-2026 17:45:29 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:45:29 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:45:29 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:45:29 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:45:29 Europe/Moscow] Health check
+[06-Feb-2026 17:45:52 Europe/Moscow] === API REQUEST [2026-02-06 17:45:52] ===
+[06-Feb-2026 17:45:52 Europe/Moscow] Method: GET
+[06-Feb-2026 17:45:52 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:45:52 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:45:52 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:45:52 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:45:52 Europe/Moscow] Health check
+[06-Feb-2026 17:46:52 Europe/Moscow] === API REQUEST [2026-02-06 17:46:52] ===
+[06-Feb-2026 17:46:52 Europe/Moscow] Method: GET
+[06-Feb-2026 17:46:52 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:46:52 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:46:52 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:46:52 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:46:52 Europe/Moscow] Health check
+[06-Feb-2026 17:47:52 Europe/Moscow] === API REQUEST [2026-02-06 17:47:52] ===
+[06-Feb-2026 17:47:52 Europe/Moscow] Method: GET
+[06-Feb-2026 17:47:52 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:47:52 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:47:52 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:47:52 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:47:52 Europe/Moscow] Health check
+[06-Feb-2026 17:48:52 Europe/Moscow] === API REQUEST [2026-02-06 17:48:52] ===
+[06-Feb-2026 17:48:52 Europe/Moscow] Method: GET
+[06-Feb-2026 17:48:52 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:48:52 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:48:52 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:48:52 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:48:52 Europe/Moscow] Health check
+[06-Feb-2026 17:49:53 Europe/Moscow] === API REQUEST [2026-02-06 17:49:53] ===
+[06-Feb-2026 17:49:53 Europe/Moscow] Method: GET
+[06-Feb-2026 17:49:53 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:49:53 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:49:53 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:49:53 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:49:53 Europe/Moscow] Health check
+[06-Feb-2026 17:50:52 Europe/Moscow] === API REQUEST [2026-02-06 17:50:52] ===
+[06-Feb-2026 17:50:52 Europe/Moscow] Method: GET
+[06-Feb-2026 17:50:52 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:50:52 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:50:52 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:50:52 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:50:52 Europe/Moscow] Health check
+[06-Feb-2026 17:52:44 Europe/Moscow] === API REQUEST [2026-02-06 17:52:44] ===
+[06-Feb-2026 17:52:44 Europe/Moscow] Method: GET
+[06-Feb-2026 17:52:44 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:52:44 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:52:44 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:52:44 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:52:44 Europe/Moscow] Health check
+[06-Feb-2026 17:53:43 Europe/Moscow] === API REQUEST [2026-02-06 17:53:43] ===
+[06-Feb-2026 17:53:43 Europe/Moscow] Method: GET
+[06-Feb-2026 17:53:43 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:53:43 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:53:43 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:53:43 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:53:43 Europe/Moscow] Health check
+[06-Feb-2026 17:54:43 Europe/Moscow] === API REQUEST [2026-02-06 17:54:43] ===
+[06-Feb-2026 17:54:43 Europe/Moscow] Method: GET
+[06-Feb-2026 17:54:43 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:54:43 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:54:43 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:54:43 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:54:43 Europe/Moscow] Health check
+[06-Feb-2026 17:55:43 Europe/Moscow] === API REQUEST [2026-02-06 17:55:43] ===
+[06-Feb-2026 17:55:43 Europe/Moscow] Method: GET
+[06-Feb-2026 17:55:43 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:55:43 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:55:43 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:55:43 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:55:43 Europe/Moscow] Health check
+[06-Feb-2026 17:56:43 Europe/Moscow] === API REQUEST [2026-02-06 17:56:43] ===
+[06-Feb-2026 17:56:43 Europe/Moscow] Method: GET
+[06-Feb-2026 17:56:43 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:56:43 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:56:43 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:56:43 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:56:43 Europe/Moscow] Health check
+[06-Feb-2026 17:57:43 Europe/Moscow] === API REQUEST [2026-02-06 17:57:43] ===
+[06-Feb-2026 17:57:43 Europe/Moscow] Method: GET
+[06-Feb-2026 17:57:43 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:57:43 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:57:43 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:57:43 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:57:43 Europe/Moscow] Health check
+[06-Feb-2026 17:58:43 Europe/Moscow] === API REQUEST [2026-02-06 17:58:43] ===
+[06-Feb-2026 17:58:43 Europe/Moscow] Method: GET
+[06-Feb-2026 17:58:43 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:58:43 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:58:43 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:58:43 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:58:43 Europe/Moscow] Health check
+[06-Feb-2026 17:59:43 Europe/Moscow] === API REQUEST [2026-02-06 17:59:43] ===
+[06-Feb-2026 17:59:43 Europe/Moscow] Method: GET
+[06-Feb-2026 17:59:43 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 17:59:43 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 17:59:43 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 17:59:43 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 17:59:43 Europe/Moscow] Health check
+[06-Feb-2026 18:00:43 Europe/Moscow] === API REQUEST [2026-02-06 18:00:43] ===
+[06-Feb-2026 18:00:43 Europe/Moscow] Method: GET
+[06-Feb-2026 18:00:43 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:00:43 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:00:43 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:00:43 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:00:43 Europe/Moscow] Health check
+[06-Feb-2026 18:01:43 Europe/Moscow] === API REQUEST [2026-02-06 18:01:43] ===
+[06-Feb-2026 18:01:43 Europe/Moscow] Method: GET
+[06-Feb-2026 18:01:43 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:01:43 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:01:43 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:01:43 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:01:43 Europe/Moscow] Health check
+[06-Feb-2026 18:02:43 Europe/Moscow] === API REQUEST [2026-02-06 18:02:43] ===
+[06-Feb-2026 18:02:43 Europe/Moscow] Method: GET
+[06-Feb-2026 18:02:43 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:02:43 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:02:43 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:02:43 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:02:43 Europe/Moscow] Health check
+[06-Feb-2026 18:02:52 Europe/Moscow] === API REQUEST [2026-02-06 18:02:52] ===
+[06-Feb-2026 18:02:52 Europe/Moscow] Method: GET
+[06-Feb-2026 18:02:52 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:02:52 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:02:52 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:02:52 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:02:52 Europe/Moscow] Health check
+[06-Feb-2026 18:02:58 Europe/Moscow] === API REQUEST [2026-02-06 18:02:58] ===
+[06-Feb-2026 18:02:58 Europe/Moscow] Method: POST
+[06-Feb-2026 18:02:58 Europe/Moscow] URI: /yml-to-youla/api.php?action=test
+[06-Feb-2026 18:02:58 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:02:58 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:02:58 Europe/Moscow] Action: test, Method: POST
+[06-Feb-2026 18:02:58 Europe/Moscow] Testing URL
+[06-Feb-2026 18:02:58 Europe/Moscow] Testing URL: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml
+[06-Feb-2026 18:02:58 Europe/Moscow] === FETCHING YML FEED FROM: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml ===
+[06-Feb-2026 18:02:58 Europe/Moscow] Response size: 698653 bytes
+[06-Feb-2026 18:03:01 Europe/Moscow] === API REQUEST [2026-02-06 18:03:01] ===
+[06-Feb-2026 18:03:01 Europe/Moscow] Method: POST
+[06-Feb-2026 18:03:01 Europe/Moscow] URI: /yml-to-youla/api.php?action=feeds
+[06-Feb-2026 18:03:01 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:03:01 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:03:01 Europe/Moscow] Action: feeds, Method: POST
+[06-Feb-2026 18:03:01 Europe/Moscow] Starting feed creation process
+[06-Feb-2026 18:03:01 Europe/Moscow] Raw input: {"yml_url":"https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml","name":"Тестовый фид","update_interval":30}
+[06-Feb-2026 18:03:01 Europe/Moscow] Creating feed: Тестовый фид, URL: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml, Interval: 30
+[06-Feb-2026 18:03:01 Europe/Moscow] Fetching YML data from: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml
+[06-Feb-2026 18:03:01 Europe/Moscow] === FETCHING YML FEED FROM: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml ===
+[06-Feb-2026 18:03:01 Europe/Moscow] Response size: 698653 bytes
+[06-Feb-2026 18:03:01 Europe/Moscow] YML data fetched successfully
+[06-Feb-2026 18:03:01 Europe/Moscow] Generating Youla feed with ID: feed_1770390181_fac52c95
+[06-Feb-2026 18:03:01 Europe/Moscow] === GENERATING YOULA FEED ===
+[06-Feb-2026 18:03:01 Europe/Moscow] Shop: Инженерные системы климата
+[06-Feb-2026 18:03:01 Europe/Moscow] Found offers: 149
+[06-Feb-2026 18:03:01 Europe/Moscow] Converted products: 149
+[06-Feb-2026 18:03:01 Europe/Moscow] Feed saved to: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feed_1770390181_fac52c95.xml
+[06-Feb-2026 18:03:01 Europe/Moscow] File size: 525184 bytes
+[06-Feb-2026 18:03:01 Europe/Moscow] Feed generated with 0 items at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feed_1770390181_fac52c95.xml
+[06-Feb-2026 18:03:02 Europe/Moscow] Feed created successfully: feed_1770390181_fac52c95
+[06-Feb-2026 18:03:43 Europe/Moscow] === API REQUEST [2026-02-06 18:03:43] ===
+[06-Feb-2026 18:03:43 Europe/Moscow] Method: GET
+[06-Feb-2026 18:03:43 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:03:43 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:03:43 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:03:43 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:03:43 Europe/Moscow] Health check
+[06-Feb-2026 18:03:45 Europe/Moscow] === API REQUEST [2026-02-06 18:03:45] ===
+[06-Feb-2026 18:03:45 Europe/Moscow] Method: GET
+[06-Feb-2026 18:03:45 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:03:45 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:03:45 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:03:45 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:03:45 Europe/Moscow] Health check
+[06-Feb-2026 18:04:03 Europe/Moscow] === API REQUEST [2026-02-06 18:04:03] ===
+[06-Feb-2026 18:04:03 Europe/Moscow] Method: POST
+[06-Feb-2026 18:04:03 Europe/Moscow] URI: /yml-to-youla/api.php?action=test
+[06-Feb-2026 18:04:03 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:04:03 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:04:03 Europe/Moscow] Action: test, Method: POST
+[06-Feb-2026 18:04:03 Europe/Moscow] Testing URL
+[06-Feb-2026 18:04:03 Europe/Moscow] Testing URL: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml
+[06-Feb-2026 18:04:03 Europe/Moscow] === FETCHING YML FEED FROM: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml ===
+[06-Feb-2026 18:04:03 Europe/Moscow] Response size: 698653 bytes
+[06-Feb-2026 18:04:45 Europe/Moscow] === API REQUEST [2026-02-06 18:04:45] ===
+[06-Feb-2026 18:04:45 Europe/Moscow] Method: GET
+[06-Feb-2026 18:04:45 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:04:45 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:04:45 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:04:45 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:04:45 Europe/Moscow] Health check
+[06-Feb-2026 18:05:45 Europe/Moscow] === API REQUEST [2026-02-06 18:05:45] ===
+[06-Feb-2026 18:05:45 Europe/Moscow] Method: GET
+[06-Feb-2026 18:05:45 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:05:45 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:05:45 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:05:45 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:05:45 Europe/Moscow] Health check
+[06-Feb-2026 18:06:45 Europe/Moscow] === API REQUEST [2026-02-06 18:06:45] ===
+[06-Feb-2026 18:06:45 Europe/Moscow] Method: GET
+[06-Feb-2026 18:06:45 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:06:45 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:06:45 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:06:45 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:06:45 Europe/Moscow] Health check
+[06-Feb-2026 18:07:45 Europe/Moscow] === API REQUEST [2026-02-06 18:07:45] ===
+[06-Feb-2026 18:07:45 Europe/Moscow] Method: GET
+[06-Feb-2026 18:07:45 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:07:45 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:07:45 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:07:45 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:07:45 Europe/Moscow] Health check
+[06-Feb-2026 18:08:45 Europe/Moscow] === API REQUEST [2026-02-06 18:08:45] ===
+[06-Feb-2026 18:08:45 Europe/Moscow] Method: GET
+[06-Feb-2026 18:08:45 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:08:45 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:08:45 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:08:45 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:08:45 Europe/Moscow] Health check
+[06-Feb-2026 18:09:02 Europe/Moscow] === API REQUEST [2026-02-06 18:09:02] ===
+[06-Feb-2026 18:09:02 Europe/Moscow] Method: POST
+[06-Feb-2026 18:09:02 Europe/Moscow] URI: /yml-to-youla/api.php?action=test
+[06-Feb-2026 18:09:02 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:09:02 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:09:02 Europe/Moscow] Action: test, Method: POST
+[06-Feb-2026 18:09:02 Europe/Moscow] Testing URL
+[06-Feb-2026 18:09:02 Europe/Moscow] Testing URL: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml
+[06-Feb-2026 18:09:02 Europe/Moscow] === FETCHING YML FEED FROM: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml ===
+[06-Feb-2026 18:09:02 Europe/Moscow] Response size: 698653 bytes
+[06-Feb-2026 18:09:45 Europe/Moscow] === API REQUEST [2026-02-06 18:09:45] ===
+[06-Feb-2026 18:09:45 Europe/Moscow] Method: GET
+[06-Feb-2026 18:09:45 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:09:45 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:09:45 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:09:45 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:09:45 Europe/Moscow] Health check
+[06-Feb-2026 18:11:43 Europe/Moscow] === API REQUEST [2026-02-06 18:11:43] ===
+[06-Feb-2026 18:11:43 Europe/Moscow] Method: GET
+[06-Feb-2026 18:11:43 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:11:43 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:11:43 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:11:43 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:11:43 Europe/Moscow] Health check
+[06-Feb-2026 18:12:05 Europe/Moscow] === API REQUEST [2026-02-06 18:12:05] ===
+[06-Feb-2026 18:12:05 Europe/Moscow] Method: GET
+[06-Feb-2026 18:12:05 Europe/Moscow] URI: /yml-to-youla/api.php?action=csrf
+[06-Feb-2026 18:12:05 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:12:05 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:12:05 Europe/Moscow] Action: csrf, Method: GET
+[06-Feb-2026 18:12:05 Europe/Moscow] Getting CSRF token
+[06-Feb-2026 18:12:06 Europe/Moscow] === API REQUEST [2026-02-06 18:12:06] ===
+[06-Feb-2026 18:12:06 Europe/Moscow] Method: GET
+[06-Feb-2026 18:12:06 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:12:06 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:12:06 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:12:06 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:12:06 Europe/Moscow] Health check
+[06-Feb-2026 18:12:10 Europe/Moscow] === API REQUEST [2026-02-06 18:12:10] ===
+[06-Feb-2026 18:12:10 Europe/Moscow] Method: POST
+[06-Feb-2026 18:12:10 Europe/Moscow] URI: /yml-to-youla/api.php?action=test
+[06-Feb-2026 18:12:10 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:12:10 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:12:10 Europe/Moscow] Action: test, Method: POST
+[06-Feb-2026 18:12:10 Europe/Moscow] Testing URL
+[06-Feb-2026 18:12:10 Europe/Moscow] Testing URL: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml
+[06-Feb-2026 18:12:10 Europe/Moscow] === FETCHING YML FEED FROM: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml ===
+[06-Feb-2026 18:12:10 Europe/Moscow] Response size: 698653 bytes
+[06-Feb-2026 18:12:22 Europe/Moscow] === API REQUEST [2026-02-06 18:12:22] ===
+[06-Feb-2026 18:12:22 Europe/Moscow] Method: POST
+[06-Feb-2026 18:12:22 Europe/Moscow] URI: /yml-to-youla/api.php?action=feeds
+[06-Feb-2026 18:12:22 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:12:22 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:12:22 Europe/Moscow] Action: feeds, Method: POST
+[06-Feb-2026 18:12:22 Europe/Moscow] Starting feed creation process
+[06-Feb-2026 18:12:22 Europe/Moscow] Raw input: {"yml_url":"https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml","name":"Фид с iskrussian.ru","update_interval":"1440","test_result":{"success":true,"message":"YML фид доступен и корректен","items_count":0,"sample_product":{"name":"Терморегулятор RTC 70.26 (3.5 кВт) белый","price":"590","currency":"RUR","category_id":"171","available":false},"is_valid":true}}
+[06-Feb-2026 18:12:22 Europe/Moscow] Creating feed: Фид с iskrussian.ru, URL: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml, Interval: 1440
+[06-Feb-2026 18:12:22 Europe/Moscow] Fetching YML data from: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml
+[06-Feb-2026 18:12:22 Europe/Moscow] === FETCHING YML FEED FROM: https://iskrussian.ru/bitrix/catalog_export/wholesale_kabel_krd.xml ===
+[06-Feb-2026 18:12:22 Europe/Moscow] Response size: 698653 bytes
+[06-Feb-2026 18:12:22 Europe/Moscow] YML data fetched successfully
+[06-Feb-2026 18:12:22 Europe/Moscow] Generating Youla feed with ID: feed_1770390742_0b6562a4
+[06-Feb-2026 18:12:22 Europe/Moscow] === GENERATING YOULA FEED ===
+[06-Feb-2026 18:12:22 Europe/Moscow] Shop: Инженерные системы климата
+[06-Feb-2026 18:12:22 Europe/Moscow] Found offers: 149
+[06-Feb-2026 18:12:22 Europe/Moscow] Converted products: 149
+[06-Feb-2026 18:12:22 Europe/Moscow] Feed saved to: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feed_1770390742_0b6562a4.xml
+[06-Feb-2026 18:12:22 Europe/Moscow] File size: 525184 bytes
+[06-Feb-2026 18:12:22 Europe/Moscow] Feed generated with 0 items at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feed_1770390742_0b6562a4.xml
+[06-Feb-2026 18:12:22 Europe/Moscow] Feed created successfully: feed_1770390742_0b6562a4
+[06-Feb-2026 18:12:58 Europe/Moscow] === API REQUEST [2026-02-06 18:12:58] ===
+[06-Feb-2026 18:12:58 Europe/Moscow] Method: GET
+[06-Feb-2026 18:12:58 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:12:58 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:12:58 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:12:58 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:12:58 Europe/Moscow] Health check
+[06-Feb-2026 18:13:01 Europe/Moscow] === API REQUEST [2026-02-06 18:13:01] ===
+[06-Feb-2026 18:13:01 Europe/Moscow] Method: GET
+[06-Feb-2026 18:13:01 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:13:01 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:13:01 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:13:01 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:13:01 Europe/Moscow] Health check
+[06-Feb-2026 18:13:01 Europe/Moscow] === API REQUEST [2026-02-06 18:13:01] ===
+[06-Feb-2026 18:13:01 Europe/Moscow] Method: GET
+[06-Feb-2026 18:13:01 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:13:01 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:13:01 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:13:01 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:13:01 Europe/Moscow] Health check
+[06-Feb-2026 18:14:02 Europe/Moscow] === API REQUEST [2026-02-06 18:14:02] ===
+[06-Feb-2026 18:14:02 Europe/Moscow] Method: GET
+[06-Feb-2026 18:14:02 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:14:02 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:14:02 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:14:02 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:14:02 Europe/Moscow] Health check
+[06-Feb-2026 18:15:02 Europe/Moscow] === API REQUEST [2026-02-06 18:15:02] ===
+[06-Feb-2026 18:15:02 Europe/Moscow] Method: GET
+[06-Feb-2026 18:15:02 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:15:02 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:15:02 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:15:02 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:15:02 Europe/Moscow] Health check
+[06-Feb-2026 18:16:02 Europe/Moscow] === API REQUEST [2026-02-06 18:16:02] ===
+[06-Feb-2026 18:16:02 Europe/Moscow] Method: GET
+[06-Feb-2026 18:16:02 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:16:02 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:16:02 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:16:02 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:16:02 Europe/Moscow] Health check
+[06-Feb-2026 18:17:03 Europe/Moscow] === API REQUEST [2026-02-06 18:17:03] ===
+[06-Feb-2026 18:17:03 Europe/Moscow] Method: GET
+[06-Feb-2026 18:17:03 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:17:03 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:17:03 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:17:03 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:17:03 Europe/Moscow] Health check
+[06-Feb-2026 18:18:02 Europe/Moscow] === API REQUEST [2026-02-06 18:18:02] ===
+[06-Feb-2026 18:18:02 Europe/Moscow] Method: GET
+[06-Feb-2026 18:18:02 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:18:02 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:18:02 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:18:02 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:18:02 Europe/Moscow] Health check
+[06-Feb-2026 18:19:03 Europe/Moscow] === API REQUEST [2026-02-06 18:19:03] ===
+[06-Feb-2026 18:19:03 Europe/Moscow] Method: GET
+[06-Feb-2026 18:19:03 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:19:03 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:19:03 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:19:03 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:19:03 Europe/Moscow] Health check
+[06-Feb-2026 18:20:43 Europe/Moscow] === API REQUEST [2026-02-06 18:20:43] ===
+[06-Feb-2026 18:20:43 Europe/Moscow] Method: GET
+[06-Feb-2026 18:20:43 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:20:43 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:20:43 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:20:43 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:20:43 Europe/Moscow] Health check
+[06-Feb-2026 18:21:43 Europe/Moscow] === API REQUEST [2026-02-06 18:21:43] ===
+[06-Feb-2026 18:21:43 Europe/Moscow] Method: GET
+[06-Feb-2026 18:21:43 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:21:43 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:21:43 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:21:43 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:21:43 Europe/Moscow] Health check
+[06-Feb-2026 18:22:43 Europe/Moscow] === API REQUEST [2026-02-06 18:22:43] ===
+[06-Feb-2026 18:22:43 Europe/Moscow] Method: GET
+[06-Feb-2026 18:22:43 Europe/Moscow] URI: /yml-to-youla/api.php?action=health
+[06-Feb-2026 18:22:43 Europe/Moscow] IP: 193.25.210.1
+[06-Feb-2026 18:22:43 Europe/Moscow] Database initialized successfully at: /home/d/dens04/converter.iskkrd.ru/public_html/yml-to-youla/feeds/feeds.db
+[06-Feb-2026 18:22:43 Europe/Moscow] Action: health, Method: GET
+[06-Feb-2026 18:22:43 Europe/Moscow] Health check
